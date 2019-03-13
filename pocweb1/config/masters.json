@@ -1,0 +1,12 @@
+{
+    "tranfer": {
+        "items":{
+            "autodeposit":"AUTODEPOSIT",
+            "charge":"CHARGE"
+        },
+        "status":{
+            "pending":"PENDING",
+            "cancelled":"CANCELLED"
+        }
+    }
+}

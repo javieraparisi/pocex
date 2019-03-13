@@ -1,0 +1,41 @@
+{
+    "en": {
+        "menutop": {
+            "welcome": "Welcome back,",
+            "lastLogin":"Last login: ",
+            "letterHour":"h"
+        },
+        "portfolio":{
+            "latest_allocation":{
+                "balance":"BALANCE",
+                "earnings":"EARNINGS",
+                "invested":"INVESTED"
+            },
+            "monthlyDeposit":"MONTHLY DEPOSIT",
+            "riskLevel":"RISK LEVEL",
+            "createdIn":"Created in ",
+            "buttons":{
+                "fund":"FUND"
+            }
+        },
+        "transfers":{
+            "items":{
+                "AUTODEPOSIT":"Regular deposit",
+                "CHARGE":"Fee"
+            },
+            "transferActivity":"Transfers activity",
+            "status":{
+                "PENDING":"Pending",
+                "CANCELLED":"Cancelled"
+            }
+        },
+        "dialogdetail":{
+            "activityDetail":"Activity detail",
+            "name":"Name",
+            "type":"Type",
+            "date":"Date",
+            "amount":"Amount",
+            "status":"Status"
+        }
+    }
+}

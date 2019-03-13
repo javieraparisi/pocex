@@ -1,0 +1,110 @@
+.portfolio{
+  clear: both;
+  height: 100px;
+  width: 1260px;
+}
+
+.latest_allocation{
+  
+  width:360px;
+  height: 100px;
+  float: left;
+  margin: 10px;
+  margin-top: 35px;
+  //background-color: aqua;
+  box-shadow: 2px 2px 2px 2px #e9f5fd;
+}
+
+.withIcon{
+  width:480px;
+}
+
+.withOutIcon{
+  float: left;
+}
+
+.latest_allocation .text{
+  float: left;
+  margin-left: 15px;
+  margin-top: 20px;
+  font-size: 0.7em;
+  color:var(--grayStrong);
+  width: 350px;
+}
+
+.latest_allocation .money{
+  float: left;
+  font-size: 1.4em;
+  margin-left: 15px;
+  margin-top: 10px;
+  color: var(--blueStrong);
+}
+
+.latest_allocation .moneySmall{
+  display: none;
+  clear: both;
+  font-size: 0.8em;
+  margin-left: 135px;
+  margin-top: 10px;
+  color: var(--blueStrong);
+}
+
+.latest_allocation .icon{
+  border-right: 1px #e9f5fd solid;
+  width: 100px;
+  float: left;
+}
+.latest_allocation .icon img{
+  margin: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .withOutIcon{
+    display: none;
+  }
+  .withIcon .icon{
+    display: none;
+  }
+  .withIcon{
+    width: 350px;
+  }
+  .latest_allocation .text{
+    margin-left: 150px;
+    margin-top: 10px;
+  }
+  .latest_allocation .money{
+    margin-left: 110px;
+    margin-top: 5px;
+  }
+  .latest_allocation .moneySmall{
+    display: block;
+  }
+  .mockportfolio .date{
+    display: none;
+  }
+  #action{
+    margin-top: 3px; 
+  }
+  #nameAndState{
+    width: 130px;
+  }
+  .transfer .created{
+    padding-top: 15px;
+    margin-left: -130px
+  }
+  #buttontransfer{
+    //display: none;
+    //position: relative;
+    margin-right: 30px;
+    margin-top: -40px;
+  }
+  #transfer{
+    width: 370px;
+  }
+  #amount{
+    //width: 150px;
+    position: relative;
+    margin-top: -60px;
+    margin-left: 290px;
+  }
+}

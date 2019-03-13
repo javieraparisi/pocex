@@ -1,0 +1,84 @@
+{
+    "user": {
+      "last_login": "2018-06-26T14:50:01.785613Z",
+      "last_name": "User"
+    },
+    "portfolios": {
+      "results": [
+        {
+          "uuid": "245b536c-6047-4e4e-8832-8cda83481301",
+          "name": "Mock portfolio",
+          "portfolio_type": "GIA",
+          "currency": {
+            "name": "Great British Pound",
+            "symbol": "£",
+            "code": "GBP"
+          },
+          "risk_level": 10,
+          "latest_allocation": {
+            "balance": 20502,
+            "invested": 37301,
+            "earnings": -16799
+          },
+          "color": "COLOR01",
+          "status": "ACTIVE",
+          "can_deposit": false,
+          "created": "2018-06-21T10:22:02.019933Z",
+          "activated": "2018-05-21T00:00:00.000000Z",
+          "deleted": null,
+          "autodeposit_amount": 613,
+          "autodeposit_date": "2018-05-22",
+          "autodeposit_frequency": 1
+        }
+      ]
+    },
+    "transfers": {
+      "results": [
+        {
+          "item": "AUTODEPOSIT",
+          "amount": 613,
+          "status": "CANCELLED",
+          "portfolio": {
+            "name": "Mock Data's portfolio"
+          },
+          "created": "2018-07-02T07:30:49.777466Z"
+        },
+        {
+          "item": "AUTODEPOSIT",
+          "amount": 613,
+          "status": "CANCELLED",
+          "portfolio": {
+            "name": "Mock Data's portfolio"
+          },
+          "created": "2018-07-02T07:30:32.956201Z"
+        },
+        {
+          "item": "AUTODEPOSIT",
+          "amount": 613,
+          "status": "CANCELLED",
+          "portfolio": {
+            "name": "Mock Data's portfolio"
+          },
+          "created": "2018-07-02T07:30:16.051068Z"
+        },
+        {
+          "item": "CHARGE",
+          "amount": 12.037603,
+          "status": "PENDING",
+          "portfolio": {
+            "name": "Mock Data's portfolio"
+          },
+          "created": "2018-07-01T04:00:10.001435Z"
+        },
+        {
+          "item": "AUTODEPOSIT",
+          "amount": 613,
+          "status": "CANCELLED",
+          "portfolio": {
+            "name": "Mock Data's portfolio"
+          },
+          "created": "2018-06-29T07:30:14.399965Z"
+        }
+      ]
+    }
+  }
